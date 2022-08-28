@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="http://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <div class="card-container">
+            <h2 class="score-title">Live score</h2>
+            <p class="score-lead" id="lead-el">Current leader</p>
+            <div class="card-item">
+                <h2 class="team">Home</h2>
+                <h1 id="home-score-el" class="score">0</h1>
+                <div class="home-btn">
+                    <button onclick="home1Score()">+1</button>
+                    <button onclick="home2Score()">+2</button>
+                    <button onclick="home3Score()">+3</button>
+                </div>
+            </div>
+        
+            <div class="card-item">
+                <h2 class="team">Guest</h2>
+                <h1 id="guest-score-el" class="score">0</h1>
+                <div class="guest-btn">
+                    <button onclick="guest1Score()">+1</button>
+                    <button onclick="guest2Score()">+2</button>
+                    <button onclick="guest3Score()">+3</button>
+                </div>
+            </div>
+            <button class="new-game" onclick="newGame()">New Game</button>
+        </div>
+    <script src="index.js"></script>
+</body>
+</html>

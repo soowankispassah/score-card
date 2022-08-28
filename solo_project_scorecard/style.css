@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    text-align: center;
+    background: #080001;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-container {
+    width: 500px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    padding: 2em;
+    margin: 2em auto 0;
+    position: relative;
+    border-radius: .3em;
+}
+
+.card-item {
+    margin-top: 2em;
+}
+
+.score-title {
+    position: absolute;
+    top: 0;
+}
+
+.score-lead {
+    position: absolute;
+    top: 3em;
+    font-size: .9em;
+}
+
+.score {
+    background: #080001;
+    color: #F94F6D;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: .3em 0;
+    font-size: 2.5em;
+    margin-top: 0;
+}
+
+.team {
+    margin-bottom: .3em;   
+}
+
+button {
+    background: none;
+    color: #9AABD8;
+    border: solid 1px #9AABD8;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    padding: .2em .3em;
+    border-radius: .3em;
+    cursor: pointer;
+}
+button:hover {
+    background: rgb(255, 237, 237);
+}
+
+.new-game {
+    position: absolute;
+    bottom: 1em;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+}
+
+.lead-des {
+    background: green;
+    padding: .2em .4em;
+    border-radius: .2em;
+}
