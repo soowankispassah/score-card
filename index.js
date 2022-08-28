@@ -50,7 +50,7 @@ homeLead.addEventListener("click", function(){
 })
 guestLead.addEventListener("click", function(){
     if(guestScore > homeScore){
-        lead = `<span class="lead-des">Guest</span> is leading`
+        lead = `<span class="lead-des">Away</span> is leading`
         leadEl.innerHTML = lead 
     }
 })
